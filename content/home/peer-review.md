@@ -14,7 +14,7 @@ subtitle = ""
 
 I review manuscripts for a range of peer-reviewed journals.
 
-- *BMJ Open* (1 manuscript, 2 review rounds)
+- *BMJ Open* (2 manuscripts, 5 review rounds)
 - *Women in Sport and Physical Activity Journal* (1 review)
 - *Journal of Dance Medicine & Science* (1 manuscript, 2 review rounds)
 
