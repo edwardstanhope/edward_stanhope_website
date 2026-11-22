@@ -1,7 +1,7 @@
 +++
 title = "The role of exercise in limiting progression from liver inflammation and fibrosis to cirrhosis and carcinoma: a systematic review with meta-analysis of human and animal studies"
 date = "2023-08-17"
-authors = ["admin", "A. E. Drummond", "C. T. Swain", "N. Teoh", "G. Farrell", "J. K. Vallance", "B. M. Lynch"]
+authors = ["admin", "A. E. Drummond", "C. T. Swain", "N. Teoh", "G. Farrell", "J. K. Vallance", "I. M. Lahart", "B. M. Lynch"]
 publication_types = ["3"]
 publication = "*medRxiv* (preprint)"
 publication_short = "*medRxiv*"
