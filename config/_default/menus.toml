@@ -11,8 +11,32 @@
 
 [[main]]
   name = "Publications"
-  url = "#publications"
+  identifier = "publications"
   weight = 20
+
+  [[main]]
+    parent = "publications"
+    name = "Recent publications"
+    url = "#publications"
+    weight = 1
+
+  [[main]]
+    parent = "publications"
+    name = "Featured publication"
+    url = "#featured"
+    weight = 2
+
+  [[main]]
+    parent = "publications"
+    name = "All publications"
+    url = "publication/"
+    weight = 3
+
+  [[main]]
+    parent = "publications"
+    name = "Peer review"
+    url = "#peer-review"
+    weight = 4
 
 [[main]]
   name = "Projects"
@@ -20,33 +44,21 @@
   weight = 22
 
 [[main]]
-  name = "Research"
-  identifier = "research"
+  name = "Talks & Posters"
+  identifier = "talks"
   weight = 25
 
   [[main]]
-    parent = "research"
-    name = "Featured publication"
-    url = "#featured"
+    parent = "talks"
+    name = "Talks"
+    url = "#talks"
     weight = 1
 
   [[main]]
-    parent = "research"
-    name = "Talks"
-    url = "#talks"
-    weight = 4
-
-  [[main]]
-    parent = "research"
+    parent = "talks"
     name = "Posters"
     url = "#posters"
-    weight = 5
-
-  [[main]]
-    parent = "research"
-    name = "Peer review"
-    url = "#peer-review"
-    weight = 6
+    weight = 2
 
 [[main]]
   name = "Experience"
