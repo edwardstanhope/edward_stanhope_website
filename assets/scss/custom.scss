@@ -1,0 +1,163 @@
+// ---------------------------------------------------------------------------
+// Custom styling for edwardstanhope.com (Academic v4.8 theme)
+// Colours and fonts come from data/themes/stanhope.toml and data/fonts/stanhope.toml.
+// ---------------------------------------------------------------------------
+
+$ink: #1a202c;
+$muted: #5a6778;
+$rule: #e3e8ee;
+$accent: #1f4e79;
+$accent-soft: #e8eff7;
+
+body { color: $ink; font-size: 1.02rem; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { color: $ink; letter-spacing: -0.01em; }
+a { text-underline-offset: 2px; transition: color .15s ease; }
+::selection { background: $accent-soft; }
+
+// --- Navigation -------------------------------------------------------------
+.navbar { border-bottom: 1px solid transparent; transition: box-shadow .2s ease, border-color .2s ease; min-height: 64px; }
+.navbar.is-scrolled { box-shadow: 0 2px 12px rgba(16, 24, 40, .06); border-bottom-color: $rule; }
+.navbar-brand { font-family: 'Source Serif Pro', Georgia, serif; font-weight: 700; font-size: 1.3rem; letter-spacing: -.01em; }
+.navbar-light .navbar-nav .nav-link { font-weight: 600; font-size: .95rem; padding: .5rem .8rem; position: relative; }
+@media (min-width: 992px) {
+  .navbar-light .navbar-nav .nav-link::after {
+    content: ""; position: absolute; left: .8rem; right: .8rem; bottom: .15rem; height: 2px;
+    background: $accent; transform: scaleX(0); transform-origin: left; transition: transform .2s ease;
+  }
+  .navbar-light .navbar-nav .nav-link:hover::after,
+  .navbar-light .navbar-nav .nav-link.active::after { transform: scaleX(1); }
+  .navbar-light .navbar-nav .dropdown-toggle::after { display: none; }
+}
+.dropdown-menu { border: 1px solid $rule; border-radius: 8px; box-shadow: 0 10px 30px rgba(16, 24, 40, .10); padding: .4rem 0; margin-top: 0; }
+.dropdown-item { font-size: .95rem; padding: .45rem 1.2rem; }
+.dropdown-item:hover, .dropdown-item:focus { background: $accent-soft; color: $accent; }
+.nav-link .fa-file-pdf { opacity: .8; }
+
+// --- Home sections -----------------------------------------------------------
+.home-section { padding: 90px 0; }
+.home-section:first-of-type { padding-top: 70px; }
+.section-heading h1 {
+  font-size: 2.1rem; font-weight: 700; margin-bottom: .6rem; position: relative; padding-bottom: .7rem;
+}
+.section-heading h1::after { content: ""; position: absolute; left: 0; bottom: 0; width: 44px; height: 3px; background: $accent; border-radius: 2px; }
+.section-subheading, .section-heading p { color: $muted; }
+
+// --- About / profile ---------------------------------------------------------
+#profile .avatar { border: 4px solid #fff; box-shadow: 0 6px 24px rgba(16, 24, 40, .12); }
+#profile .portrait-title h2 { font-size: 1.7rem; margin-top: 1rem; }
+#profile .portrait-title h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 600; font-size: 1rem; color: $muted; line-height: 1.45; }
+#profile .portrait-title h3 a { color: $accent; }
+.network-icon { margin-top: .6rem; }
+.network-icon li { margin: 0 .25rem; }
+.big-icon { font-size: 1.6rem; color: $muted; transition: color .15s ease, transform .15s ease; }
+.network-icon a:hover .big-icon { color: $accent; transform: translateY(-2px); }
+#about h1 { font-size: 2.1rem; }
+.ul-interests li, .ul-edu li { margin-bottom: .45rem; }
+.ul-edu .description p.course { font-weight: 600; }
+
+// --- Cards, lists, timelines -------------------------------------------------
+.card-simple, .card {
+  border: 1px solid $rule; border-radius: 10px; box-shadow: none;
+  transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+}
+.card-simple:hover, .experience .card:hover {
+  box-shadow: 0 10px 28px rgba(16, 24, 40, .08); border-color: darken($rule, 4%); transform: translateY(-2px);
+}
+.card-simple .article-title, .card-title { font-family: 'Source Serif Pro', Georgia, serif; }
+.article-metadata { color: $muted; font-size: .9rem; }
+.experience .card { border-radius: 10px; }
+.experience .card .card-title { font-size: 1.1rem; margin-bottom: .2rem; }
+.experience .card .card-subtitle { font-weight: 600; color: $muted; }
+.exp-meta { color: $muted; }
+.experience .border-right { border-color: $rule !important; }
+.experience .badge-primary { background-color: $accent; }
+
+// Publication / page buttons: quieter outline pills
+.btn-page-header, .btn-outline-primary.btn-page-header {
+  border-radius: 999px; font-size: .8rem; padding: .2rem .75rem; font-weight: 600;
+}
+.btn-outline-primary { border-width: 1px; }
+
+// Tags as subtle chips
+.article-tags .badge, .tag-cloud a {
+  background: $accent-soft; color: $accent; font-weight: 600; border-radius: 999px; padding: .3em .8em; border: 0;
+}
+
+// --- Blog ---------------------------------------------------------------------
+.universal-wrapper h1, .article-title { font-family: 'Source Serif Pro', Georgia, serif; }
+.article-container { max-width: 740px; }
+.article-style { font-size: 1.08rem; line-height: 1.8; }
+.article-style h2 { margin-top: 2.4rem; font-size: 1.6rem; }
+.article-style h3 { margin-top: 1.8rem; font-size: 1.3rem; }
+.article-style blockquote { border-left: 3px solid $accent; padding: .2rem 0 .2rem 1.2rem; color: $muted; font-style: italic; }
+.article-style img { border-radius: 8px; }
+.media.stream-item { padding: 1.2rem 0; border-bottom: 1px solid $rule; margin-bottom: 0; }
+.media.stream-item .article-title a:hover { color: $accent; }
+.view-list-item { padding: .3rem 0; }
+
+// --- Contact -------------------------------------------------------------------
+#contact .form-control { border-radius: 8px; border-color: $rule; }
+#contact .form-control:focus { border-color: $accent; box-shadow: 0 0 0 3px $accent-soft; }
+#contact .btn { border-radius: 8px; padding: .5rem 1.6rem; font-weight: 600; }
+#contact .fa-ul li { margin-bottom: .6rem; }
+
+// --- Footer --------------------------------------------------------------------
+.site-footer { border-top: 1px solid $rule; padding: 2.2rem 0; text-align: center; color: $muted; }
+.site-footer .footer-social { list-style: none; padding: 0; margin: 0 0 .8rem; }
+.site-footer .footer-social li { display: inline-block; margin: 0 .45rem; }
+.site-footer .footer-social a { color: $muted; font-size: 1.25rem; }
+.site-footer .footer-social a:hover { color: $accent; }
+.site-footer .powered-by { font-size: .85rem; margin-bottom: .3rem; }
+
+// Floating back-to-top button
+.to-top {
+  position: fixed; right: 22px; bottom: 22px; width: 42px; height: 42px; border-radius: 50%;
+  background: $accent; color: #fff !important; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, .18); opacity: 0; visibility: hidden; transform: translateY(8px);
+  transition: opacity .2s ease, transform .2s ease, visibility .2s; z-index: 1030;
+}
+.to-top.show { opacity: 1; visibility: visible; transform: none; }
+.to-top:hover { background: darken($accent, 8%); }
+
+// --- Gentle reveal on scroll (respects reduced-motion) ------------------------------
+@media (prefers-reduced-motion: no-preference) {
+  .js-reveal .home-section .container { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+  .js-reveal .home-section.is-visible .container { opacity: 1; transform: none; }
+}
+
+// --- Dark mode ------------------------------------------------------------------
+.dark {
+  body, & { color: #d8dee9; }
+  h1, h2, h3, h4, h5, .section-heading h1 { color: #eef2f7; }
+  .section-heading h1::after, .to-top { background: #8cb4dc; }
+  .card, .card-simple, .dropdown-menu, .media.stream-item, .site-footer { border-color: #2d3748; }
+  .dropdown-item:hover { background: #2d3748; color: #b5d0ea; }
+  .article-tags .badge, .tag-cloud a { background: #243447; color: #b5d0ea; }
+  .navbar.is-scrolled { border-bottom-color: #2d3748; }
+  #profile .avatar { border-color: #2d3748; }
+}
+
+// --- Small screens -------------------------------------------------------------
+@media (max-width: 767px) {
+  .home-section { padding: 56px 0; }
+  .section-heading h1 { font-size: 1.7rem; }
+  .navbar-collapse { padding-bottom: .8rem; }
+  .dropdown-menu { border: 0; box-shadow: none; padding-left: 1rem; }
+}
+
+// Keep long abstracts in card listings to a short preview
+.card-simple .article-style p, .card-simple .article-style {
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+// Keep card banner images (e.g. poster previews) to a tidy height
+.card-simple img.article-banner { max-height: 300px; width: 100%; object-fit: contain; border-radius: 6px; }
+
+// Experience cards: clearer hierarchy and readable descriptions
+.experience .card-title.exp-title { color: $ink !important; }
+.experience .card-title.exp-company { font-family: 'Source Sans Pro', sans-serif; font-size: 1rem; color: $muted !important; font-weight: 600 !important; }
+.experience .card-text, .experience .card-text p, .experience .card-text li { color: #3a4553 !important; font-size: .92rem !important; line-height: 1.6; }
+.experience .card-text { padding-left: 0; margin-top: .6rem; }
+.experience .card-text ul { margin-top: .3rem; padding-left: 1.2rem; }
+.dark .experience .card-title.exp-title { color: #eef2f7 !important; }
+.dark .experience .card-text, .dark .experience .card-text p, .dark .experience .card-text li { color: #d8dee9 !important; }

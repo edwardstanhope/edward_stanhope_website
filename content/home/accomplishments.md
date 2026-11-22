@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Accomplishment"
+title = "Accomplishments"
 subtitle = "Last ten courses"
 
 # Date format
@@ -20,8 +20,8 @@ date_format = "Jan 2006"
 
 
 [[item]]
-  organization = "Aspiring Leader"
-  organization_url = "https://www.staffs.ac.uk/"
+  organization = "UK EQUATOR Network"
+  organization_url = "https://www.ndorms.ox.ac.uk/"
   title = "The secrets of success in writing, publishing, and disseminating research articles"
   url = "https://www.ndorms.ox.ac.uk/graduate-courses/courses/equator-publication-school"
   certificate_url = ""
@@ -30,9 +30,9 @@ date_format = "Jan 2006"
   description = ""
 
 [[item]]
-  organization = "UK Equator Network"
-  organization_url = "https://www.ndorms.ox.ac.uk/"
-  title = "Staffordshire University Aspiring Leaders"
+  organization = "Staffordshire University"
+  organization_url = "https://www.staffs.ac.uk/"
+  title = "Aspiring Leaders"
   url = ""
   certificate_url = ""
   date_start = "2022-09-01"

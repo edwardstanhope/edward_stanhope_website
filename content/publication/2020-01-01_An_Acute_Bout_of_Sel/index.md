@@ -22,7 +22,12 @@ url_poster = ""
 url_source = ""
 math = true
 highlight = true
+[image]
+caption = ""
+focal_point = ""
+preview_only = false
+
 [header]
-image = "/static/files/godwin_2020b.pdf"
+image = ""
 caption = ""
 +++

@@ -53,7 +53,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-   image = `static/img/kearney_2022.pdf`
+  # image = ""  # (was a PDF, which can't be a background)
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).

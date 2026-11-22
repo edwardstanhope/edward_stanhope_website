@@ -29,3 +29,7 @@ image = ""
 caption = ""
 
 +++
+
+A systematic review investigating the effects of physical activity on balance, stability, posture, gait and fall prevention in adults with multiple sclerosis.
+
+- **Protocol:** [PROSPERO CRD42022286463](https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42022286463)

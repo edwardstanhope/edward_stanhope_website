@@ -29,3 +29,7 @@ image = ""
 caption = ""
 
 +++
+
+A systematic review and meta-analysis of whether low skeletal muscle mass is associated with treatment toxicity and early treatment discontinuation in people with cancer.
+
+- **Published:** Stanhope et al. (2025), *Low Muscle Mass and Treatment Tolerance in Patients With Upper Gastrointestinal Cancer: A Systematic Review and Meta-Analysis*, JCSM Communications. [doi:10.1002/rco2.115](https://doi.org/10.1002/rco2.115)

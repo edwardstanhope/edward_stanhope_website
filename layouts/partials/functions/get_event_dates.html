@@ -1,0 +1,23 @@
+{{/* Site override of Academic 4.8 get_event_dates.
+     Adds: set `year_only = true` in a talk/poster's front matter to show only the year (e.g. "2023"). */}}
+{{ $t1 := time .Date }}{{/* Start datetime. */}}
+{{ $str := slice }}
+{{ if .Params.year_only }}
+  {{ $str = slice ($t1.Format "2006") }}
+{{ else }}
+  {{ $str = slice ($t1.Format site.Params.date_format) }}{{/* Init return string with start date. */}}
+  {{/* Show start time if not all day event. */}}
+  {{ if not .Params.all_day }}{{ $str = $str | append ($t1.Format (site.Params.time_format)) }}{{ end }}
+  {{/* Show event end date if provided. */}}
+  {{ if .Params.date_end }}
+    {{ $str = $str | append "&mdash;" }}
+    {{ $t2 := time .Params.date_end }}{{/* End datetime. */}}
+    {{/* Show end date if it differs to start date. */}}
+    {{ if not (eq $t1.Year $t2.Year | and (eq $t1.Month $t2.Month) | and (eq $t1.Day $t2.Day)) }}
+      {{ $str = $str | append ($t2.Format site.Params.date_format) }}
+    {{ end }}
+    {{/* Show end time if not all day event. */}}
+    {{ if not .Params.all_day }}{{ $str = $str | append ($t2.Format (site.Params.time_format)) }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ return (delimit $str " ") }}

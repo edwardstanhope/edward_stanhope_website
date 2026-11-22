@@ -1,0 +1,14 @@
+# Custom colour theme for edwardstanhope.com
+name = "Stanhope"
+light = true
+primary = "#1f4e79"
+menu_primary = "#ffffff"
+menu_text = "#2d3748"
+menu_text_active = "#1f4e79"
+menu_title = "#1a202c"
+home_section_odd = "#ffffff"
+home_section_even = "#f6f8fa"
+
+[dark]
+  link = "#8cb4dc"
+  link_hover = "#b5d0ea"
