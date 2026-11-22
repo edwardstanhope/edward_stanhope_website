@@ -1,0 +1,7 @@
+# Custom font set: serif headings, clean sans body
+name = "Stanhope"
+google_fonts = "Source+Serif+Pro:600,700|Source+Sans+Pro:400,400i,600,700|Roboto+Mono"
+heading_font = "Source Serif Pro"
+body_font = "Source Sans Pro"
+nav_font = "Source Sans Pro"
+mono_font = "Roboto Mono"

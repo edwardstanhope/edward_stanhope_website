@@ -1,0 +1,73 @@
+# Navigation links
+#   Top-level items link to sections of the home page (#anchor) or to pages.
+#   Items with `parent` appear in a dropdown under that heading.
+#   Talks, Posters and Peer review are commented out until those home sections are
+#   switched on (active = true). Uncomment them at the same time.
+
+[[main]]
+  name = "About"
+  url = "#about"
+  weight = 10
+
+[[main]]
+  name = "Research"
+  identifier = "research"
+  weight = 20
+
+  [[main]]
+    parent = "research"
+    name = "Featured publications"
+    url = "#featured"
+    weight = 1
+
+  [[main]]
+    parent = "research"
+    name = "All publications"
+    url = "publication/"
+    weight = 2
+
+  [[main]]
+    parent = "research"
+    name = "Projects"
+    url = "#projects"
+    weight = 3
+
+  [[main]]
+    parent = "research"
+    name = "Talks"
+    url = "#talks"
+    weight = 4
+
+  [[main]]
+    parent = "research"
+    name = "Posters"
+    url = "#posters"
+    weight = 5
+
+  [[main]]
+    parent = "research"
+    name = "Peer review"
+    url = "#peer-review"
+    weight = 6
+
+[[main]]
+  name = "Experience"
+  url = "#experience"
+  weight = 30
+
+# Blog link hidden until the first post is published (set draft: false), then uncomment.
+# [[main]]
+#   name = "Blog"
+#   url = "post/"
+#   weight = 40
+
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 50
+
+[[main]]
+  name = "CV"
+  pre = "<i class='fas fa-file-pdf'></i> "
+  url = "files/cv.pdf"
+  weight = 60

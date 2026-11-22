@@ -1,0 +1,24 @@
+{{/* Custom footer: social links, copyright, privacy/terms. Overrides the Academic theme footer. */}}
+{{ $author := site.GetPage "/authors/admin" }}
+<footer class="site-footer">
+  {{ with $author }}
+  <ul class="footer-social">
+    {{ range .Params.social }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $prefix := $pack }}{{ if in (slice "fab" "fas" "far" "fal") $pack }}{{ $prefix = "fa" }}{{ end }}
+    {{ $link := .link }}{{ $scheme := (urls.Parse $link).Scheme }}
+    {{ if not $scheme }}{{ $link = .link | relLangURL }}{{ end }}
+    <li><a href="{{ $link | safeURL }}" {{ if in (slice "http" "https") $scheme }}target="_blank" rel="noopener"{{ end }} aria-label="{{ .icon }}"><i class="{{ $pack }} {{ $prefix }}-{{ .icon }}"></i></a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  <p class="powered-by">
+    &copy; {{ now.Year }} {{ site.Title }}{{ with site.Params.org_name }} &middot; {{ . }}{{ end }}
+  </p>
+  {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
+  <p class="powered-by">
+    {{ with site.GetPage "privacy.md" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+    {{ with site.GetPage "terms.md" }}{{ if site.GetPage "privacy.md" }} &middot; {{ end }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+  </p>
+  {{ end }}
+</footer>
