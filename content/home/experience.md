@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   description = ""
 
 [[experience]]
-  title = "Module Organiser, CTM101 and Deputy Module Organiser, CTM202 Trial Design"
+  title = "Module Organiser, CTM101 Fundamentals of Clinical Trials & Deputy Module Organiser, CTM202 Trial Design"
   company = "London School of Hygiene & Tropical Medicine"
   company_url = "http://www.lshtm.ac.uk"
   location = "London"

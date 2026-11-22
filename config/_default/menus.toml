@@ -10,27 +10,25 @@
   weight = 10
 
 [[main]]
-  name = "Research"
-  identifier = "research"
+  name = "Publications"
+  url = "#publications"
   weight = 20
 
+[[main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 22
+
+[[main]]
+  name = "Research"
+  identifier = "research"
+  weight = 25
+
   [[main]]
     parent = "research"
-    name = "Featured publications"
+    name = "Featured publication"
     url = "#featured"
     weight = 1
-
-  [[main]]
-    parent = "research"
-    name = "All publications"
-    url = "publication/"
-    weight = 2
-
-  [[main]]
-    parent = "research"
-    name = "Projects"
-    url = "#projects"
-    weight = 3
 
   [[main]]
     parent = "research"
