@@ -26,3 +26,7 @@ caption = ""
 focal_point = ""
 preview_only = false
 +++
+
+## Lay summary
+
+Professionalism covers the "non-technical" side of being a surgeon: communicating well, working in a team, making sound decisions and behaving ethically. These skills matter for patient safety, but they are not always taught directly, and the COVID-19 pandemic disrupted surgical training and moved much of it online. We designed a professionalism workshop for surgical trainees in the UK, built on published research and using real-life cases for group discussion. Trainees learned to recognise specific behaviours that show good professional practice, and to apply them both face to face and when working virtually. Afterwards, we surveyed 83 trainers and trainees about the workshop's impact. Most felt it helped trainees understand and develop their non-technical skills, and to behave professionally in virtual settings. The findings suggest that focused teaching on professionalism is a valuable part of surgical training, during the pandemic and beyond it, and that it supports trainees' development as surgeons.

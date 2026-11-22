@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Lecturer in Sport Therapy & Assistant Professor, Programme Director, Clinical Trials (LSHTM)
+role: Senior Lecturer Sport Therapy & Assistant Professor Clinical Trials
 
 # Organizations/Affiliations
 organizations:
@@ -23,18 +23,17 @@ organizations:
 bio: Edward is a Senior Lecturer in Sport Therapy at the University of Staffordshire and Assistant Professor and Programme Director for the MSc Clinical Trials (Distance Learning) at the London School of Hygiene & Tropical Medicine. His research focuses on exercise and physical activity for people living with cancer and other non-communicable diseases, and on clinical trial methodology.
 
 interests:
-- Physical Activity and Non-Communicable Disease
-- Physical Activity and Breast Cancer
-- Trial Methodology and Statistics
+- Exercise oncology
+- Exercise for long-term conditions
+- Clinical trial design and methodology
+- Evidence synthesis and meta-analysis
+- Digital and distance education
 
 education:
   courses:
   - course: "PhD Exercise in Oncology (submitted, awaiting viva): Exercise, Physiological Impairment, Functional Limitation and Quality of Life Across the Cancer Care Continuum in Women with Breast Cancer"
     institution: University of Wolverhampton
     year: 2026
-  - course: Senior Fellow of the Higher Education Academy (SFHEA)
-    institution: Advance HE
-    year: 2019
   - course: MSc Clinical Trials  (Distinction)
     institution: London School Hygiene and Tropical Medicine
     year: 2019
@@ -87,15 +86,8 @@ email: ""
 
 ---
 
-Edward is a dedicated academic whose journey began with a First-Class Honours degree in Sports Therapy from the [University of Birmingham](https://www.birmingham.ac.uk/) in 2013. Since then, he has been fortunate to contribute to academia, starting as a faculty member at [University College Birmingham](https://www.ucb.ac.uk/), where he had the privilege of teaching on the BSc and FdSc Sports Therapy programmes.
+Edward Stanhope is a Senior Lecturer in Sport Therapy at the [University of Staffordshire](https://www.staffs.ac.uk/) and Assistant Professor and Programme Director for the MSc in Clinical Trials (Distance Learning) at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/) (LSHTM). He is a Senior Fellow of the Higher Education Academy.
 
-In 2019, Edward continued his academic pursuits, completing his Master's in Teaching and Learning in Higher Education at the [University of Birmingham](https://www.birmingham.ac.uk/) and a Master's in Clinical Trials at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk/), both of which he completed with Distinction.
+At LSHTM he leads a team of more than 80 academic and clinical experts delivering the Clinical Trials programme to students worldwide, and organises the CTM101 and CTM202 Trial Designs modules. At Staffordshire he has led the Sports Therapy course and the research and dissertation modules across the sport programmes. He also developed a new FdSc in Rehabilitation and Manual Therapies and secured investment in a rehabilitation zone and greenscreen studio.
 
-Transitioning to [Staffordshire University](https://www.staffs.ac.uk/) in the same year, Edward has had the opportunity to contribute to undergraduate and postgraduate sport programmes. He has taken on leadership roles, including course leadership, module leadership including the undergraduate research modules, and supervising undergraduate and postgraduate dissertations.
-
-In addition to his role at the [University of Staffordshire](https://www.staffs.ac.uk/), Edward is Assistant Professor and Programme Director for Clinical Trials by Distance Learning at the London School of Hygiene and Tropical Medicine, Module Organiser for CTM101 and Deputy Module Organiser for the CTM202 Trial Design module.
-
-Edward has submitted his PhD at the [University of Wolverhampton](https://www.wlv.ac.uk/) and is awaiting his viva. His thesis focuses on the influence of exercise and physical activity on women with breast cancer during their treatment journey. He remains involved in research collaborations, exploring the effects of exercise on non-communicable diseases, cryotherapy, and research methodologies.
-
-For further information on Edward's ongoing projects, please visit his website: https://www.edwardstanhope.com/project/
-
+Edward holds a First-Class BSc in Sports Therapy and an MA in Teaching and Learning in Higher Education from the [University of Birmingham](https://www.birmingham.ac.uk/), and an MSc in Clinical Trials from LSHTM. He has submitted his PhD at the [University of Wolverhampton](https://www.wlv.ac.uk/), on exercise to improve physical function in women with breast cancer. His wider research covers exercise in cancer and other long-term conditions, cryotherapy and clinical trial methodology. See his [current projects](/#projects).

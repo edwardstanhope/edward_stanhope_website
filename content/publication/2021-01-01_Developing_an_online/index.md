@@ -21,7 +21,7 @@ url_video = ""
 url_poster = ""
 url_source = ""
 math = true
-featured = true
+featured = false
 highlight = true
 [image]
 caption = ""
@@ -32,3 +32,7 @@ preview_only = false
 image = ""
 caption = ""
 +++
+
+## Lay summary
+
+Clinical trials only give reliable answers if the people who join them stay involved until the end. When participants drop out, results can become biased, and trials may need to recruit more people, costing time and money. Plenty of research has looked at ways to keep people involved, but it is scattered and hard to find. We built ORRCA2, a free online database that collects and organises this research. The team screened almost 73,000 study summaries and identified 1,167 relevant articles published up to the end of 2017. We sorted each one by the type of evidence it offered and the kind of retention approach it looked at, such as payments, reminders or questionnaire design. Only about one in seven articles properly tested a strategy in a randomised trial, and very few looked at costs. The database helps trial teams choose retention strategies and shows where more research is needed, such as the role of research sites and staff.

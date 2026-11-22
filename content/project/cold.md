@@ -1,7 +1,7 @@
 +++
 title = "The influence of Cryo-cOmpression (GameReady) therapy on joint position reproduction in the shouLDer (COLD)"
 date = 2018-11-08T04:23:35-08:00
-draft = false
+draft = true
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

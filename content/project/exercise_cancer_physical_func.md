@@ -8,7 +8,7 @@ draft = false
 tags = ["All", "Physical Activity and Non-Communicable Disease", "Breast Cancer"]
 
 # Project summary to display on homepage.
-summary = "A systematic review and meta-analysis of randomised controlled trials of exercise interventions on physical function in patients with breast cancer. From 5,381 records screened, 98 reports of 76 trials were included: 51 trials contributed to at least one meta-analysis and 25 were summarised narratively. PROSPERO: CRD42022289197"
+summary = "Manuscript under peer review. A systematic review and meta-analysis of randomised controlled trials of exercise interventions on physical function in patients with breast cancer. From 5,381 records screened, 98 reports of 76 trials were included: 51 trials contributed to at least one meta-analysis and 25 were summarised narratively. PROSPERO: CRD42022289197"
 
 # Optional image to display on homepage.
 image_preview = ""

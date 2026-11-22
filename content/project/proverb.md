@@ -8,7 +8,7 @@ draft = false
 tags = ["All", "Physical Activity and Non-Communicable Disease"]
 
 # Project summary to display on homepage.
-summary = "The feasibility of a multi-phasic exercise-based intervention utilising the Health Action Process Approach and wearable technology in women before and after surgery for breast cancer. ClinicalTrials.gov: NCT05901142"
+summary = "Manuscript under peer review. The feasibility of a multi-phasic exercise-based intervention utilising the Health Action Process Approach and wearable technology in women before and after surgery for breast cancer. ClinicalTrials.gov: NCT05901142"
 
 # Optional image to display on homepage.
 image_preview = ""

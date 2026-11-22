@@ -31,3 +31,7 @@ preview_only = false
 image = ""
 caption = ""
 +++
+
+## Lay summary
+
+Foam rolling, sometimes called self-myofascial release, is a popular part of many warm-ups. People roll their muscles over a firm foam cylinder in the hope of loosening tight tissue and moving more freely. Some worry it might also make muscles less "springy" and harm performance. We tested this in 25 recreationally active adults. Each person did two warm-ups a week apart: a standard dynamic warm-up on its own, and the same warm-up with foam rolling added. We measured how far the ankle could bend in a lunge, and how well people performed a drop jump, where they step off a box and jump straight back up as quickly and as high as they can. Ankle movement improved after both warm-ups, with no real difference between them. Jump performance did not change either way. This suggests foam rolling can be added to a warm-up without harming jumping, but it does not seem to give an extra boost.

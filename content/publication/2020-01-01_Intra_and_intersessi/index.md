@@ -31,3 +31,7 @@ preview_only = false
 image = ""
 caption = ""
 +++
+
+## Lay summary
+
+Coaches often use resisted sprint machines, which add drag as an athlete runs, to build speed and acceleration. For any training or testing tool to be useful, it needs to give consistent results, so that a change in sprint time reflects a real change in the athlete rather than noise from the equipment. We tested the reliability of one commercial machine, the Run Rocket. Fourteen recreationally active adults completed three all-out 15-metre sprints at two resistance settings, then repeated the whole session a week later. We compared sprint times at 5 and 15 metres within each session and between the two sessions. Results were highly consistent: times typically varied by only about 2 to 6 percent, and agreement between repeated sprints was very high. The first session was slightly more variable, which suggests a short familiarisation period helps. Overall, the machine gave dependable results and can be trusted within sprint training programmes for recreationally trained people.

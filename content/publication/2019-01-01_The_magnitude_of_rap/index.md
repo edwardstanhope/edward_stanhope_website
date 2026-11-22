@@ -29,3 +29,7 @@ preview_only = false
 [header]
 caption = ""
 +++
+
+## Lay summary
+
+Many combat sport athletes, such as boxers, wrestlers and mixed martial artists, "make weight" before a fight. They lose weight quickly in the days before the official weigh-in, often by cutting back on food and fluid, and then regain it before they compete. We searched the research literature to find out how much weight athletes lose and regain. We found 16 studies covering more than 4,400 athletes across five sports. The biggest changes were in mixed martial arts, where athletes lost and then regained around 7 kg, roughly a tenth of their body weight. How much weight athletes regained depended on the sport, how competitions were organised and how long they had between the weigh-in and competing. Very few studies measured the weight loss directly, and almost none included women. Regaining weight lets some athletes compete up to three weight classes above the one they weighed in at, which raises questions about fairness and safety.

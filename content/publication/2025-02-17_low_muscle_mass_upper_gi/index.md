@@ -26,3 +26,7 @@ caption = ""
 focal_point = ""
 preview_only = false
 +++
+
+## Lay summary
+
+Upper gastrointestinal cancers, such as cancers of the oesophagus and stomach, are serious illnesses, and treatments such as chemotherapy often cause side effects. Severe side effects can force doctors to lower doses or stop treatment early, which may make it less effective. Some people with these cancers have low muscle mass, and we wanted to know whether this makes treatment harder to tolerate. We reviewed 49 studies of adults with upper gastrointestinal cancer who were due to start drug treatment. People with low muscle mass were about 44 percent more likely to have severe side effects, and more than twice as likely to stop treatment early. They were also more likely to have specific problems, including fatigue, mouth sores, low platelet counts, and fever linked to low white blood cell counts. However, most studies had serious design weaknesses, so the findings need to be confirmed in better-designed studies. Assessing and protecting muscle mass could help patients complete their treatment.
