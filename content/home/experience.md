@@ -23,8 +23,8 @@ date_format = "Jan 2006"
   date_start = "2023-12-01"
   date_end = ""
   description = """
-- Module Organiser, CTM101 Fundamentals of Clinical Trials (Sept 2026 – present)
-- Deputy Module Organiser, CTM202 Trial Design (Jan 2022 – present)
+- Module Organiser, [CTM101](https://www.lshtm.ac.uk/media/100071) Fundamentals of Clinical Trials
+- Deputy Module Organiser, [CTM202](https://www.lshtm.ac.uk/media/99921) Trial Design
 """
 
 [[experience]]
@@ -35,8 +35,7 @@ date_format = "Jan 2006"
   date_start = "2019-09-01"
   date_end = ""
   description = """
-- Module Leader, Undergraduate Dissertation ([SPOR60969](https://evision.staffs.ac.uk/module_descriptors/SPOR60969.html)) for five years, including an annual simulated sport conference
-- Research Pathway Lead: Reviewing Scientific Literature ([SPOR40961](https://evision.staffs.ac.uk/module_descriptors/SPOR40961.html)), Conducting Research ([SPOR40957](https://evision.staffs.ac.uk/module_descriptors/SPOR40957.html)), Systematically Reviewing Scientific Literature ([SPOR50933](https://evision.staffs.ac.uk/module_descriptors/SPOR50933.html)) and Conducting Rigorous Research ([SPOR50929](https://evision.staffs.ac.uk/module_descriptors/SPOR50929.html))
+- Research Pathway Lead: Reviewing Scientific Literature ([SPOR40961](https://evision.staffs.ac.uk/module_descriptors/SPOR40961.html)), Conducting Research ([SPOR40957](https://evision.staffs.ac.uk/module_descriptors/SPOR40957.html)), Systematically Reviewing Scientific Literature ([SPOR50933](https://evision.staffs.ac.uk/module_descriptors/SPOR50933.html)), Conducting Rigorous Research ([SPOR50929](https://evision.staffs.ac.uk/module_descriptors/SPOR50929.html)) and Undergraduate Dissertation ([SPOR60969](https://evision.staffs.ac.uk/module_descriptors/SPOR60969.html); led for five years, including an annual simulated sport conference)
 - Module Leader, Clinical Assessment and Manual Interventions ([SPOR40967](https://evision.staffs.ac.uk/module_descriptors/SPOR40967.html))
 - Module Leader, Upper Extremity Anatomy ([SPOR40976](https://evision.staffs.ac.uk/module_descriptors/SPOR40976.html)) and Lower Extremity Anatomy ([SPOR40960](https://evision.staffs.ac.uk/module_descriptors/SPOR40960.html))
 - Module Leader, Professional Clinic ([SPOR60960](https://evision.staffs.ac.uk/module_descriptors/SPOR60960.html))
