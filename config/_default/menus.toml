@@ -65,11 +65,10 @@
   url = "#experience"
   weight = 30
 
-# Blog link hidden until the first post is published (set draft: false), then uncomment.
-# [[main]]
-#   name = "Blog"
-#   url = "post/"
-#   weight = 40
+[[main]]
+  name = "Blog"
+  url = "post/"
+  weight = 40
 
 [[main]]
   name = "Contact"
