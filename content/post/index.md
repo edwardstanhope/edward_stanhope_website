@@ -17,7 +17,7 @@ categories:
 date: 2026-12-01
 lastmod: 2026-12-01
 featured: false
-draft: false
+draft: true
 image:
   caption: "A lighthouse beam shines across the words 'the BEACON Blog: shining a light on exercise oncology research'. Original illustration by Edward N. Stanhope for BEACON."
   focal_point: ""
