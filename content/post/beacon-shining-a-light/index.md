@@ -1,6 +1,6 @@
 ---
 title: "BEACON: Shining a light on exercise oncology research"
-subtitle: "The BEACON Blog, post 1: why how we do the research matters as much as what it finds"
+subtitle: "Why how we do the research matters as much as what it finds"
 summary: "Exercise oncology has shown real promise. Now the hard part: building evidence strong enough to change care. Why more research isn't enough, what better research looks like, and what the BEACON Blog will shine a light on each month."
 authors:
   - admin
@@ -261,9 +261,6 @@ I find it helpful to hold two ideas together. Exercise has enormous potential to
 - **If you are a trainee:** constructive critique is how the field improves. Asking difficult questions about design is a contribution, not a challenge to anyone.
 - **If you are affected by cancer:** you can help shape research, not only take part in it. It is also reasonable to ask how strong the evidence behind a claim is.
 
-<p class="caution">This post discusses research design and is not individual medical advice. If you are affected by cancer and thinking about starting a new exercise programme, talk to your care team first.</p>
-
-**Funding and competing interests.** BEACON is unfunded. I am a researcher active in exercise oncology, and my views are shaped by my educational, clinical and research experience.
 
 ## References
 
@@ -306,3 +303,7 @@ render();
 });
 }
 </script>
+
+<p class="caution">This post discusses research design and is not individual medical advice. If you are affected by cancer and thinking about starting a new exercise programme, talk to your care team first.</p>
+
+**Funding and competing interests.** BEACON is unfunded. I am a researcher active in exercise oncology, and my views are shaped by my educational, clinical and research experience.
