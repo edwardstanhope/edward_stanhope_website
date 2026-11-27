@@ -1,0 +1,30 @@
+{{- define "main" -}}
+{{/* Blog post page. Same as the Academic theme's single.html, plus "back to the blog" links above and below the post. */}}
+{{ $blog := site.GetPage "section" "post" }}
+<article class="article">
+
+  <nav class="post-backlink post-backlink-top" aria-label="Breadcrumb">
+    <a href="{{ "/" | relLangURL }}">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ $blog.RelPermalink }}">Blog</a>
+  </nav>
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    <nav class="post-backlink post-backlink-bottom" aria-label="Blog navigation">
+      <a class="btn btn-outline-primary" href="{{ $blog.RelPermalink }}"><i class="fas fa-arrow-left mr-1"></i> Back to all posts</a>
+      <a class="btn btn-link" href="{{ "/" | relLangURL }}">Home page</a>
+    </nav>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+
+{{- end -}}

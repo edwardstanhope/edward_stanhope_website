@@ -220,3 +220,15 @@ a { text-underline-offset: 2px; transition: color .15s ease; }
   .blog-item-summary { color: #d8dee9; }
   .blog-item-tags a { background: #243447; color: #b5d0ea; }
 }
+
+// --- Blog post: back links ----------------------------------------------------------
+.post-backlink-top { max-width: 740px; margin: 0 auto; padding: 2.2rem 20px 0; font-size: .9rem; color: $muted; }
+.post-backlink-top a { color: $muted; font-weight: 600; }
+.post-backlink-top a:hover { color: $accent; }
+.post-backlink-top span { margin: 0 .4rem; }
+.post-backlink-top + .article-container, .post-backlink-top + div .article-container { padding-top: 1rem; }
+.post-backlink-bottom { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin: 2.5rem 0 1.5rem; padding-top: 1.5rem; border-top: 1px solid $rule; }
+.post-backlink-bottom .btn { font-size: .92rem; line-height: 1.5; padding: .45rem 1.1rem; font-weight: 600; }
+.post-backlink-bottom .btn-outline-primary { border-radius: 999px; }
+.dark .post-backlink-top a { color: #a9b4c2; }
+.dark .post-backlink-bottom { border-color: #2d3748; }
