@@ -161,3 +161,21 @@ a { text-underline-offset: 2px; transition: color .15s ease; }
 .experience .card-text ul { margin-top: .3rem; padding-left: 1.2rem; }
 .dark .experience .card-title.exp-title { color: #eef2f7 !important; }
 .dark .experience .card-text, .dark .experience .card-text p, .dark .experience .card-text li { color: #d8dee9 !important; }
+
+// --- BEACON blog posts: dark mode ----------------------------------------------
+// Each BEACON post carries its own light styles in a <style> block on a .beacon wrapper.
+// These overrides keep the text and boxes readable when a visitor switches to dark mode.
+.dark .beacon {
+  --b-navy: #b5d0ea; --b-teal: #4fb3ab; --b-amber: #e0a54a; --b-good: #6cc58f; --b-poor: #ef8a8a;
+  --b-bg: #1e2733; --b-line: #2d3748; --b-text: #d8dee9;
+  .b-label, .b-takeaway .b-label, .b-methods .b-label { color: #10161f; }
+  details, .b-card, .b-scenario, .sim-out, textarea { background: #161d27; color: var(--b-text); }
+  .sim-presets button { background: #161d27; }
+  .sim-presets button[aria-pressed=true] { background: var(--b-teal); color: #10161f; }
+  .sim-track { background: repeating-linear-gradient(90deg, #242e3b 0 calc(10% - 1px), #2d3748 calc(10% - 1px) 10%); }
+  .b-note, .caution, figcaption { color: #a9b4c2; }
+  a { color: #8cb4dc; }
+  a:hover { color: #b5d0ea; }
+}
+// Citation jumps: stop the fixed top menu covering the reference being jumped to.
+.beacon [id] { scroll-margin-top: 90px; }
