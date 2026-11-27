@@ -14,10 +14,10 @@ tags:
 categories:
   - BEACON
   - the BEACON Blog
-date: 2026-11-27
-lastmod: 2026-11-27
+date: 2026-12-01
+lastmod: 2026-12-01
 featured: false
-draft: false
+draft: true
 image:
   caption: "A lighthouse beam shines across the words 'the BEACON Blog: shining a light on exercise oncology research'. Original illustration by Edward N. Stanhope for BEACON."
   focal_point: ""
@@ -25,7 +25,7 @@ image:
 projects: []
 ---
 
-<!-- BEACON series, post 1. Links to BEACON Background and Chapter 1. Requires markup.goldmark.renderer.unsafe: true in the site config so the HTML components and script render. -->
+<!-- BEACON series, post 1. Requires markup.goldmark.renderer.unsafe: true in the site config so the HTML components and script render. -->
 
 <style>
 .beacon{--b-navy:#1F3A5F;--b-teal:#1D7A74;--b-amber:#C9821B;--b-good:#2E7D4F;--b-poor:#B23A3A;--b-bg:#F5F7FA;--b-line:#D9DEE5;--b-text:#1E2430;font-family:inherit;color:var(--b-text);line-height:1.6;max-width:760px;margin:0 auto}
@@ -55,7 +55,6 @@ projects: []
 .beacon .b-note{font-size:.85rem;color:#555;margin:.5rem 0 0}
 .beacon figure{margin:1.75rem 0}
 .beacon figure img,.beacon figure svg{width:100%;height:auto;display:block;border-radius:6px}
-.beacon figure.b-fig1 svg{max-width:560px;margin:0 auto}
 .beacon figcaption{font-size:.9rem;color:#444;margin-top:.5rem}
 .beacon .b-refs{font-size:.9rem}
 .beacon .b-refs li{margin-bottom:.4rem}
@@ -96,8 +95,6 @@ projects: []
 
 <div class="beacon">
 
-Exercise oncology has never had stronger evidence, and how we build that evidence has never mattered more.
-
 Over the past two decades, research on exercise across the cancer continuum has grown remarkably. An international consensus statement now concludes that exercise is generally safe for people living with and beyond cancer, and that specific doses can improve anxiety, depressive symptoms, fatigue, physical function and health-related quality of life <a class="cite" href="#r1">[1]</a>. In 2025, a phase 3 randomised trial across 55 centres reported longer disease-free survival with a structured exercise programme after chemotherapy for colon cancer <a class="cite" href="#r2">[2]</a>.
 
 That progress belongs to many people: researchers, clinicians, exercise professionals, advocates and, above all, the thousands of people affected by cancer who have given their time and effort to studies. It also brings responsibility. A field that hopes to change cancer care needs evidence that is rigorous, transparent and honestly interpreted.
@@ -117,32 +114,26 @@ The resource has five parts, running from the foundations of the field to evalua
 
 Each month, the BEACON Blog will take one idea from the resource and apply it to published exercise oncology research. I'll look at it through a trialist's eyes, connecting it to the landmark methods literature and to good clinical practice. Every post will include short interactive tasks, because appraisal is a skill you build by practising.
 
-<figure class="b-fig1">
-<svg viewBox="0 0 520 620" role="img" aria-label="BEACON's five parts in order: foundations, trial fundamentals, statistical analysis, implementing research, and evidence evaluation and knowledge translation">
-<rect x="0" y="0" width="520" height="620" rx="10" fill="#F5F7FA"/>
-<path d="M44 60 V512" stroke="#C9821B" stroke-width="5" stroke-dasharray="2 10" stroke-linecap="round"/>
+<figure>
+<svg viewBox="0 0 720 430" role="img" aria-label="BEACON's five parts in order: foundations, trial fundamentals, statistical analysis, implementing research, and evidence evaluation and knowledge translation">
+<rect x="0" y="0" width="720" height="430" rx="10" fill="#F5F7FA"/>
+<path d="M60 70 V370" stroke="#C9821B" stroke-width="6" stroke-dasharray="2 12" stroke-linecap="round"/>
 <g font-family="Helvetica, Arial, sans-serif">
-<circle cx="44" cy="50" r="26" fill="#1F3A5F"/><text x="44" y="57" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">I</text>
-<text x="86" y="44" fill="#1F3A5F" font-size="19" font-weight="700">Foundations of exercise oncology research</text>
-<text x="86" y="69" fill="#1E2430" font-size="16">Chapter 1: the field, its evidence base</text>
-<text x="86" y="90" fill="#1E2430" font-size="16">and its challenges</text>
-<circle cx="44" cy="168" r="26" fill="#1D7A74"/><text x="44" y="175" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">II</text>
-<text x="86" y="162" fill="#1F3A5F" font-size="19" font-weight="700">Fundamentals of exercise oncology trials</text>
-<text x="86" y="187" fill="#1E2430" font-size="16">Chapters 2 to 9: design, controls,</text>
-<text x="86" y="208" fill="#1E2430" font-size="16">randomisation, blinding, reporting</text>
-<circle cx="44" cy="286" r="26" fill="#1F3A5F"/><text x="44" y="293" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">III</text>
-<text x="86" y="280" fill="#1F3A5F" font-size="19" font-weight="700">Statistical analysis</text>
-<text x="86" y="305" fill="#1E2430" font-size="16">Chapters 10 to 16: description, inference,</text>
-<text x="86" y="326" fill="#1E2430" font-size="16">effect measures, adjustment</text>
-<circle cx="44" cy="404" r="26" fill="#1D7A74"/><text x="44" y="411" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">IV</text>
-<text x="86" y="398" fill="#1F3A5F" font-size="19" font-weight="700">Implementing exercise oncology research</text>
-<text x="86" y="423" fill="#1E2430" font-size="16">Chapters 17 to 23: planning, GCP,</text>
-<text x="86" y="444" fill="#1E2430" font-size="16">recruitment, quality, dissemination</text>
-<circle cx="44" cy="522" r="26" fill="#1F3A5F"/><text x="44" y="529" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">V</text>
-<text x="86" y="516" fill="#1F3A5F" font-size="19" font-weight="700">Evidence evaluation and</text>
-<text x="86" y="540" fill="#1F3A5F" font-size="19" font-weight="700">knowledge translation</text>
-<text x="86" y="565" fill="#1E2430" font-size="16">Chapters 24 to 28: appraisal, GRADE,</text>
-<text x="86" y="586" fill="#1E2430" font-size="16">publication, systematic reviews</text>
+<circle cx="60" cy="58" r="28" fill="#1F3A5F"/><text x="60" y="66" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">I</text>
+<text x="110" y="52" fill="#1F3A5F" font-size="21" font-weight="700">Foundations of exercise oncology research</text>
+<text x="110" y="78" fill="#1E2430" font-size="17">Chapter 1: the field, its evidence base and its challenges</text>
+<circle cx="60" cy="138" r="28" fill="#1D7A74"/><text x="60" y="146" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">II</text>
+<text x="110" y="132" fill="#1F3A5F" font-size="21" font-weight="700">Fundamentals of exercise oncology trials</text>
+<text x="110" y="158" fill="#1E2430" font-size="17">Chapters 2 to 9: design, controls, randomisation, blinding, reporting</text>
+<circle cx="60" cy="218" r="28" fill="#1F3A5F"/><text x="60" y="226" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">III</text>
+<text x="110" y="212" fill="#1F3A5F" font-size="21" font-weight="700">Statistical analysis</text>
+<text x="110" y="238" fill="#1E2430" font-size="17">Chapters 10 to 16: description, inference, effect measures, adjustment</text>
+<circle cx="60" cy="298" r="28" fill="#1D7A74"/><text x="60" y="306" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">IV</text>
+<text x="110" y="292" fill="#1F3A5F" font-size="21" font-weight="700">Implementing exercise oncology research</text>
+<text x="110" y="318" fill="#1E2430" font-size="17">Chapters 17 to 23: planning, GCP, recruitment, quality, dissemination</text>
+<circle cx="60" cy="378" r="28" fill="#1F3A5F"/><text x="60" y="386" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">V</text>
+<text x="110" y="372" fill="#1F3A5F" font-size="21" font-weight="700">Evidence evaluation and knowledge translation</text>
+<text x="110" y="398" fill="#1E2430" font-size="17">Chapters 24 to 28: appraisal, GRADE, publication, systematic reviews</text>
 </g>
 </svg>
 <figcaption><strong>Figure 1.</strong> The five parts of BEACON, from the foundations of the field to evaluating and translating evidence. Original diagram by Edward N. Stanhope for BEACON.</figcaption>
@@ -208,7 +199,7 @@ This shows that a large and growing evidence base can still be hard to use. If a
 
 At the heart of every exercise oncology study are people who volunteer to take part. They give their time, energy and personal information, and often their hope that others will benefit. Research ethics therefore can't be a regulatory hurdle alone. It has to guide every step, from choosing the question to communicating the answer.
 
-For that reason, I'd argue that a well-designed study is an ethical obligation, not a methodological luxury. People affected by cancer also bring expertise researchers lack: they know the barriers to taking part, the practical limits and which outcomes matter in daily life. The principle at the heart of BEACON is simple: **nothing about people affected by cancer without people affected by cancer.**
+For that reason, I'd argue that a well-designed study is an ethical obligation, not a methodological luxury. People affected by cancer also bring expertise researchers lack: they know the barriers to taking part, the practical limits and which outcomes matter in daily life. Nothing about people affected by cancer without people affected by cancer.
 
 Equity is part of this, and it is a methodological principle, not only a recruitment target. A systematic review of 28 prostate cancer exercise studies, with 15,946 participants, found that reporting of ethnicity varied widely and no study included a statement on inclusivity <a class="cite" href="#r7">[7]</a>. Few men from ethnic minority groups took part in the UK studies <a class="cite" href="#r7">[7]</a>. If research mostly includes the people easiest to recruit and retain, its findings may not apply to those who could benefit most.
 
@@ -269,9 +260,9 @@ I find it helpful to hold two ideas together. Exercise has enormous potential to
 
 ## An invitation
 
-Exercise oncology has earned its place in cancer care. Keeping that trust means studies that people affected by cancer, clinicians and policymakers can rely on, from the first protocol to the final report. BEACON exists to help with that, and the BEACON Blog will shine its light on our field's trial methods, one practice at a time.
+The strongest future for exercise oncology will rest less on how much research we produce than on how well we design, conduct, report and share it. BEACON exists to help with that, and the BEACON Blog will shine its light on our field's trial methods, one practice at a time.
 
-**Read the BEACON Background and Chapter 1 at [BEACON URL], and tell me in the comments which topic you'd like the BEACON Blog to tackle first.**
+**Tell me in the comments which topic you'd like the BEACON Blog to tackle first.**
 
 <p class="caution">This post discusses research design and is not individual medical advice. If you are affected by cancer and thinking about starting a new exercise programme, talk to your care team first.</p>
 
@@ -292,7 +283,7 @@ Exercise oncology has earned its place in cancer care. Keeping that trust means 
 
 ## Further reading
 
-- BEACON Background and Chapter 1: Introduction to exercise oncology research *([BEACON URL])*
+- BEACON Background and Chapter 1: Introduction to exercise oncology research
 - [EQUATOR Network](https://www.equator-network.org/): reporting guidelines including CONSORT, SPIRIT, TIDieR, CERT and GRIPP2
 - [ICH E6(R3) at the European Medicines Agency](https://www.ema.europa.eu/en/scientific-guidelines/ich-e6-good-clinical-practice): the current good clinical practice guideline
 

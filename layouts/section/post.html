@@ -1,0 +1,20 @@
+{{- define "main" -}}
+{{/* Blog landing page. Overrides the Academic theme's post list so posts show as tidy rows. */}}
+<div class="universal-wrapper blog-landing">
+  <header class="blog-landing-header">
+    <h1>{{ .Title | default "Blog" }}</h1>
+    {{ with .Params.subtitle }}<p class="blog-landing-subtitle">{{ . | markdownify }}</p>{{ end }}
+    {{ with .Content }}<div class="blog-landing-intro">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ $paginator := .Paginate .Pages }}
+  {{ if $paginator.Pages }}
+  <div class="blog-list">
+    {{ range $paginator.Pages }}{{ partial "li_blog" . }}{{ end }}
+  </div>
+  {{ partial "pagination" . }}
+  {{ else }}
+  <p class="blog-empty">The first post is on its way. Check back soon.</p>
+  {{ end }}
+</div>
+{{- end -}}

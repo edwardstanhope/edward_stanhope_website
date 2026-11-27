@@ -179,3 +179,44 @@ a { text-underline-offset: 2px; transition: color .15s ease; }
 }
 // Citation jumps: stop the fixed top menu covering the reference being jumped to.
 .beacon [id] { scroll-margin-top: 90px; }
+
+// --- Blog landing page and "Latest from the blog" rows ------------------------------
+.blog-landing { max-width: 920px; padding-top: 3.5rem; padding-bottom: 3rem; }
+.blog-landing-header { padding-bottom: 1.6rem; margin-bottom: .6rem; border-bottom: 1px solid $rule; }
+.blog-landing-header h1 { font-family: 'Source Serif Pro', Georgia, serif; font-size: 2.6rem; font-weight: 700; margin-bottom: .4rem; position: relative; padding-bottom: .7rem; }
+.blog-landing-header h1::after { content: ""; position: absolute; left: 0; bottom: 0; width: 44px; height: 3px; background: $accent; border-radius: 2px; }
+.blog-landing-subtitle { color: $muted; font-size: 1.15rem; margin: .6rem 0 0; }
+.blog-landing-intro { color: $muted; margin-top: .6rem; }
+.blog-empty { color: $muted; padding: 2rem 0; }
+
+.blog-item { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 1.6rem; align-items: start; padding: 1.6rem 0; border-bottom: 1px solid $rule; }
+.blog-item:last-child { border-bottom: 0; }
+.blog-item.no-image { grid-template-columns: minmax(0, 1fr); }
+.blog-item-image { display: block; border-radius: 8px; overflow: hidden; border: 1px solid $rule; }
+.blog-item-image img { display: block; width: 100%; height: auto; transition: transform .3s ease; }
+.blog-item:hover .blog-item-image img { transform: scale(1.03); }
+.blog-item-series { font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: $accent; margin-bottom: .3rem; }
+.blog-item-title { font-family: 'Source Serif Pro', Georgia, serif; font-size: 1.35rem; line-height: 1.3; margin: 0 0 .45rem; }
+.blog-item-title a { color: $ink; }
+.blog-item-title a:hover { color: $accent; text-decoration: none; }
+.blog-item-summary { color: #3a4553; font-size: .98rem; line-height: 1.6; margin-bottom: .6rem; }
+.blog-item-summary p { margin: 0; }
+.blog-item-meta { color: $muted; font-size: .88rem; }
+.blog-item-tags { margin-top: .55rem; display: flex; flex-wrap: wrap; gap: .35rem; }
+.blog-item-tags a { background: $accent-soft; color: $accent; font-size: .78rem; font-weight: 600; border-radius: 999px; padding: .15em .75em; }
+.blog-item-tags a:hover { text-decoration: none; background: darken($accent-soft, 4%); }
+// Narrower column on the home page: stack the image above the text a little sooner.
+.home-section .blog-item { grid-template-columns: 200px minmax(0, 1fr); gap: 1.3rem; }
+.home-section .blog-item.no-image { grid-template-columns: minmax(0, 1fr); }
+@media (max-width: 640px) {
+  .blog-item, .home-section .blog-item { grid-template-columns: minmax(0, 1fr); gap: .9rem; }
+  .blog-landing-header h1 { font-size: 2.1rem; }
+}
+@media (prefers-reduced-motion: reduce) { .blog-item-image img { transition: none; } }
+.dark {
+  .blog-landing-header, .blog-item, .blog-item-image { border-color: #2d3748; }
+  .blog-item-title a { color: #eef2f7; }
+  .blog-item-title a:hover, .blog-item-series { color: #8cb4dc; }
+  .blog-item-summary { color: #d8dee9; }
+  .blog-item-tags a { background: #243447; color: #b5d0ea; }
+}

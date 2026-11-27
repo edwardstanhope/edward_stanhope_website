@@ -1,0 +1,32 @@
+{{/* Blog post row used on the Blog page and in the home page "Latest from the blog" section.
+     Shows series (first category), title, summary, date, reading time and up to three tags. */}}
+{{ $item := . }}
+{{ $link := $item.RelPermalink }}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}{{ $summary = $item.Params.summary | markdownify | emojify }}{{ else }}{{ $summary = $item.Summary }}{{ end }}
+{{ $featured := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+<article class="blog-item{{ if not $featured }} no-image{{ end }}">
+  {{ with $featured }}
+  {{ $thumb := .Fill "480x252 Smart" }}
+  <a class="blog-item-image" href="{{ $link }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ $thumb.RelPermalink }}" width="480" height="252" alt="" loading="lazy">
+  </a>
+  {{ end }}
+  <div class="blog-item-body">
+    {{ with $item.Params.categories }}
+    <div class="blog-item-series">{{ index . 0 }}</div>
+    {{ end }}
+    <h3 class="blog-item-title"><a href="{{ $link }}">{{ $item.Title }}</a></h3>
+    {{ with $summary }}<div class="blog-item-summary">{{ . }}</div>{{ end }}
+    <div class="blog-item-meta">
+      <time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "2 January 2006" }}</time>
+      <span class="middot-divider"></span>
+      <span>{{ $item.ReadingTime }} min read</span>
+    </div>
+    {{ with $item.Params.tags }}
+    <div class="blog-item-tags">
+      {{ range first 3 . }}<a href="{{ (urlize .) | printf "tags/%s/" | relLangURL }}">{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>
