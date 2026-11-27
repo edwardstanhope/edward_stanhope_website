@@ -38,9 +38,7 @@ date_format = "Jan 2006"
 - Research Pathway Lead: Reviewing Scientific Literature ([SPOR40961](https://evision.staffs.ac.uk/module_descriptors/SPOR40961.html)), Conducting Research ([SPOR40957](https://evision.staffs.ac.uk/module_descriptors/SPOR40957.html)), Systematically Reviewing Scientific Literature ([SPOR50933](https://evision.staffs.ac.uk/module_descriptors/SPOR50933.html)), Conducting Rigorous Research ([SPOR50929](https://evision.staffs.ac.uk/module_descriptors/SPOR50929.html)) and Undergraduate Dissertation, including an annual simulated sport conference ([SPOR60969](https://evision.staffs.ac.uk/module_descriptors/SPOR60969.html)
 - Module Leader, Clinical Assessment and Manual Interventions ([SPOR40967](https://evision.staffs.ac.uk/module_descriptors/SPOR40967.html))
 - Module Leader, Upper Extremity Anatomy ([SPOR40976](https://evision.staffs.ac.uk/module_descriptors/SPOR40976.html)) and Lower Extremity Anatomy ([SPOR40960](https://evision.staffs.ac.uk/module_descriptors/SPOR40960.html))
-- Module Leader, Professional Clinic ([SPOR60960](https://evision.staffs.ac.uk/module_descriptors/SPOR60960.html))
-- Module Leader, Exercise for Special Populations ([SPOR60957](https://evision.staffs.ac.uk/module_descriptors/SPOR60957.html))
-"""
+
 
 [[experience]]
   title = "Lecturer, Sports Therapy"
