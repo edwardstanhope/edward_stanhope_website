@@ -1,6 +1,6 @@
 ---
 title: "BEACON: Shining a light on exercise oncology research"
-subtitle: "Why how we do the research matters as much as what it finds"
+subtitle: "The BEACON Blog, post 1: why how we do the research matters as much as what it finds"
 summary: "Exercise oncology has shown real promise. Now the hard part: building evidence strong enough to change care. Why more research isn't enough, what better research looks like, and what the BEACON Blog will shine a light on each month."
 authors:
   - admin
@@ -28,13 +28,13 @@ projects: []
 <!-- The BEACON Blog, post 1. Requires markup.goldmark.renderer.unsafe: true in the site config so the HTML components and script render. -->
 
 <style>
-.beacon{--b-navy:#1F3A5F;--b-teal:#1D7A74;--b-amber:#C9821B;--b-good:#2E7D4F;--b-poor:#B23A3A;--b-bg:#F5F7FA;--b-line:#D9DEE5;--b-text:#1E2430;font-family:inherit;font-size:1.0625rem;color:var(--b-text);line-height:1.65;max-width:760px;margin:0 auto}
+.beacon{--b-navy:#1F3A5F;--b-teal:#1D7A74;--b-amber:#C9821B;--b-good:#2E7D4F;--b-poor:#B23A3A;--b-bg:#F5F7FA;--b-line:#D9DEE5;--b-text:#1E2430;font-family:inherit;font-size:1.2em;color:var(--b-text);line-height:1.65;max-width:760px;margin:0 auto}
 .beacon *{box-sizing:border-box}
 .beacon .b-box{background:var(--b-bg);border:1px solid var(--b-line);border-left:6px solid var(--b-teal);border-radius:8px;padding:1rem 1.25rem;margin:1.75rem 0}
-.beacon .b-label{display:inline-block;font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--b-teal);border-radius:4px;padding:.15rem .5rem;margin-bottom:.5rem}
-.beacon .b-box h3{margin:.25rem 0 .75rem;font-size:1.25rem;line-height:1.35;color:var(--b-navy)}
+.beacon .b-label{display:inline-block;font-size:.85em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--b-teal);border-radius:4px;padding:.15rem .5rem;margin-bottom:.5rem}
+.beacon .b-box h3{margin:.25rem 0 .75rem;font-size:1.25em;line-height:1.35;color:var(--b-navy)}
 .beacon details{background:#fff;border:1px solid var(--b-line);border-radius:6px;margin:.5rem 0;padding:0}
-.beacon summary{cursor:pointer;padding:.65rem .9rem;font-weight:600;font-size:1.05rem;list-style-position:inside}
+.beacon summary{cursor:pointer;padding:.65rem .9rem;font-weight:600;font-size:1.05em;list-style-position:inside}
 .beacon summary:focus-visible{outline:3px solid var(--b-amber);outline-offset:2px}
 .beacon details[open] summary{border-bottom:1px solid var(--b-line)}
 .beacon details > div{padding:.75rem .9rem}
@@ -42,22 +42,23 @@ projects: []
 .beacon .b-incorrect{color:var(--b-poor);font-weight:700}
 .beacon .b-takeaway{border-left-color:var(--b-amber)}
 .beacon .b-takeaway .b-label{background:var(--b-amber)}
-.beacon .b-takeaway p{font-size:1.25rem;font-weight:600;margin:0;color:var(--b-navy)}
+.beacon .b-takeaway p{font-size:1.25em;font-weight:600;margin:0;color:var(--b-navy)}
 .beacon .b-compare{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
 @media (max-width:600px){.beacon .b-compare{grid-template-columns:1fr}}
 .beacon .b-card{background:#fff;border:1px solid var(--b-line);border-top:6px solid;border-radius:6px;padding:.9rem 1rem}
 .beacon .b-card.good{border-top-color:var(--b-good)}
 .beacon .b-card.poor{border-top-color:var(--b-poor)}
-.beacon .b-card h4{margin:0 0 .5rem;font-size:1.1rem}
+.beacon .b-card h4{margin:0 0 .5rem;font-size:1.1em}
 .beacon .b-card.good h4{color:var(--b-good)}
 .beacon .b-card.poor h4{color:var(--b-poor)}
 .beacon .b-scenario{background:#fff;border:1px dashed var(--b-navy);border-radius:6px;padding:.75rem 1rem;margin-bottom:.75rem;font-style:italic}
-.beacon .b-note{font-size:1rem;color:#444;margin:.5rem 0 0}
+.beacon .b-note{font-size:1em;color:#444;margin:.5rem 0 0}
 .beacon figure{margin:1.75rem 0}
 .beacon figure img,.beacon figure svg{width:100%;height:auto;display:block;border-radius:6px}
-.beacon figure.b-fig1 svg{max-width:560px;margin:0 auto}
-.beacon figcaption{font-size:1rem;color:#444;margin-top:.5rem}
-.beacon .b-refs{font-size:1rem}
+.beacon figure.b-fig1 svg{max-width:400px;margin:0 auto}
+.beacon figure.b-fig1 figcaption{max-width:560px;margin:.5rem auto 0}
+.beacon figcaption{font-size:1em;color:#444;margin-top:.5rem}
+.beacon .b-refs{font-size:1em}
 .beacon .b-refs li{margin-bottom:.4rem}
 .beacon textarea{width:100%;min-height:90px;border:1px solid var(--b-line);border-radius:6px;padding:.5rem;font:inherit}
 .beacon .b-methods{border-left-color:var(--b-navy)}
@@ -67,31 +68,31 @@ projects: []
 .beacon .b-methods dd{margin:0}
 @media (max-width:600px){.beacon .b-methods dl{grid-template-columns:minmax(0,1fr)}.beacon .b-methods dd{margin-bottom:.5rem}}
 .beacon .cite{font-size:.95em;text-decoration:none;font-weight:700}
-.beacon .caution{font-size:1rem;color:#444;border-top:1px solid var(--b-line);padding-top:.75rem;margin-top:1.75rem}
+.beacon .caution{font-size:1em;color:#444;border-top:1px solid var(--b-line);padding-top:.75rem;margin-top:1.75rem}
 /* Interactive figure: research waste simulator (adapted from the improvement simulator) */
 .beacon .b-sim{background:var(--b-bg);border:1px solid var(--b-line);border-left:6px solid var(--b-teal);border-radius:8px;padding:1rem 1.25rem;margin:1.75rem 0}
-.beacon .b-sim h3{margin:.25rem 0 .25rem;font-size:1.25rem;color:var(--b-navy)}
+.beacon .b-sim h3{margin:.25rem 0 .25rem;font-size:1.25em;color:var(--b-navy)}
 .sim-presets{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
-.sim-presets button{font:inherit;font-size:17px;min-height:44px;padding:6px 14px;border:1px solid var(--b-teal);background:#fff;color:var(--b-teal);border-radius:22px;cursor:pointer}
+.sim-presets button{font:inherit;font-size:1em;min-height:44px;padding:6px 14px;border:1px solid var(--b-teal);background:#fff;color:var(--b-teal);border-radius:22px;cursor:pointer}
 .sim-presets button[aria-pressed=true]{background:var(--b-teal);color:#fff}
 .sim-ctrl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px 20px;margin-bottom:14px}
 @media(max-width:600px){.sim-ctrl{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:600px){.sim-row{grid-template-columns:6.2em minmax(0,1fr) 2.8em;gap:8px;font-size:15px}}
-.sim-ctrl label{display:grid;grid-template-columns:minmax(0,1fr) 2.2em;gap:2px 10px;align-items:center;font-size:17px}
+@media(max-width:600px){.sim-row{grid-template-columns:6.2em minmax(0,1fr) 2.8em;gap:8px;font-size:.9em}}
+.sim-ctrl label{display:grid;grid-template-columns:minmax(0,1fr) 2.2em;gap:2px 10px;align-items:center;font-size:1em}
 .sim-ctrl label span{grid-column:1/-1;display:flex;align-items:center;gap:8px}
 .sim-ctrl input{width:100%;min-height:32px;accent-color:var(--b-teal)}
 .sim-ctrl output{font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
 .sw{display:inline-block;width:14px;height:14px;border-radius:3px;flex:none}
 .s1{background:#8FA3B8}.s2{background:#B9C7D4}.s3{background:#D9E1E8;border:1px solid #b8c3cd}.s4{background:#1D7A74}
 .sim-out{background:#fff;border:1px solid var(--b-line);border-radius:6px;padding:12px 14px}
-.sim-row-t{font-weight:700;color:var(--b-navy);font-size:17px;margin:6px 0 6px!important}
-.sim-row{display:grid;grid-template-columns:7.5em minmax(0,1fr) 3.2em;gap:10px;align-items:center;margin-bottom:8px;font-size:16px}
+.sim-row-t{font-weight:700;color:var(--b-navy);font-size:1em;margin:6px 0 6px!important}
+.sim-row{display:grid;grid-template-columns:7.5em minmax(0,1fr) 3.2em;gap:10px;align-items:center;margin-bottom:8px;font-size:.95em}
 .sim-track{height:30px;background:repeating-linear-gradient(90deg,#f3f5f8 0 calc(10% - 1px),#e3e8ee calc(10% - 1px) 10%);border-radius:4px;display:flex;overflow:hidden}
 .sim-track i{display:block;height:100%;transition:width .3s ease}
 @media(prefers-reduced-motion:reduce){.sim-track i{transition:none}}
 .sim-diff .sim-lab,.sim-diff .sim-val{color:var(--b-teal);font-weight:700}
 .sim-val{font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
-.sim-read{margin:10px 0 0!important;padding-top:10px;border-top:1px solid var(--b-line);font-size:18px}
+.sim-read{margin:10px 0 0!important;padding-top:10px;border-top:1px solid var(--b-line);font-size:1.05em}
 .sim-read strong{color:var(--b-teal)}
 </style>
 
@@ -114,42 +115,31 @@ That is why I'm starting the BEACON Blog.
 
 BEACON stands for Best practices in Exercise and physical ACtivity for Oncology research and traiNing. As the name suggests, the BEACON Blog will shine a light on the methodological practices behind exercise oncology trials. Some of those practices are strong and some need work, and seeing both clearly makes the path through a study easier to follow.
 
-The blog will follow a trial from start to finish (Figure 1): how we choose the question, design the study, run it safely, analyse the data, report the results and use the evidence. Along the way we'll meet control groups, randomisation, blinding, sample size, fidelity, good clinical practice and much more.
+The blog will follow research around its full cycle (Figure 1): how we choose the question, design the study, run it safely, analyse the data, report the results and use the evidence, which in turn shapes the next question. Along the way we'll meet control groups, randomisation, blinding, sample size, fidelity, good clinical practice and much more.
 
 Each month, I'll take one of those practices and apply it to published exercise oncology research. I'll look at it through a trialist's eyes, connecting it to the landmark methods literature and to good clinical practice. Every post will include short interactive tasks, because appraisal is a skill you build by practising.
 
 <figure class="b-fig1">
-<svg viewBox="0 0 520 646" role="img" aria-label="Six stages of a trial the BEACON Blog will cover: asking the question, designing, running, analysing, reporting and using the evidence">
-<rect x="0" y="0" width="520" height="646" rx="10" fill="#F5F7FA"/>
-<path d="M44 58 V558" stroke="#C9821B" stroke-width="5" stroke-dasharray="2 10" stroke-linecap="round"/>
-<g font-family="Helvetica, Arial, sans-serif">
-<circle cx="44" cy="48" r="26" fill="#1F3A5F"/><text x="44" y="56" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">1</text>
-<text x="86" y="42" fill="#1F3A5F" font-size="22" font-weight="700">Asking the question</text>
-<text x="86" y="68" fill="#1E2430" font-size="18">Research priorities, PICO,</text>
-<text x="86" y="91" fill="#1E2430" font-size="18">involving people affected by cancer</text>
-<circle cx="44" cy="152" r="26" fill="#1D7A74"/><text x="44" y="160" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">2</text>
-<text x="86" y="146" fill="#1F3A5F" font-size="22" font-weight="700">Designing the trial</text>
-<text x="86" y="172" fill="#1E2430" font-size="18">Control groups, randomisation,</text>
-<text x="86" y="195" fill="#1E2430" font-size="18">blinding, sample size</text>
-<circle cx="44" cy="256" r="26" fill="#1F3A5F"/><text x="44" y="264" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">3</text>
-<text x="86" y="250" fill="#1F3A5F" font-size="22" font-weight="700">Running the trial</text>
-<text x="86" y="276" fill="#1E2430" font-size="18">Consent, safety, adherence,</text>
-<text x="86" y="299" fill="#1E2430" font-size="18">fidelity, good clinical practice</text>
-<circle cx="44" cy="360" r="26" fill="#1D7A74"/><text x="44" y="368" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">4</text>
-<text x="86" y="354" fill="#1F3A5F" font-size="22" font-weight="700">Analysing the data</text>
-<text x="86" y="380" fill="#1E2430" font-size="18">Intention to treat, estimands,</text>
-<text x="86" y="403" fill="#1E2430" font-size="18">missing data, effect sizes</text>
-<circle cx="44" cy="464" r="26" fill="#1F3A5F"/><text x="44" y="472" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">5</text>
-<text x="86" y="458" fill="#1F3A5F" font-size="22" font-weight="700">Reporting the results</text>
-<text x="86" y="484" fill="#1E2430" font-size="18">CONSORT, TIDieR, CERT,</text>
-<text x="86" y="507" fill="#1E2430" font-size="18">proportionate conclusions</text>
-<circle cx="44" cy="568" r="26" fill="#1D7A74"/><text x="44" y="576" fill="#fff" font-size="22" font-weight="700" text-anchor="middle">6</text>
-<text x="86" y="562" fill="#1F3A5F" font-size="22" font-weight="700">Using the evidence</text>
-<text x="86" y="588" fill="#1E2430" font-size="18">Appraisal, GRADE, systematic</text>
-<text x="86" y="611" fill="#1E2430" font-size="18">reviews, implementation</text>
+<svg viewBox="0 0 480 480" role="img" aria-label="A cycle of six stages: question, design, conduct, analysis, reporting and use of evidence, which leads back to new questions">
+<rect x="0" y="0" width="480" height="480" rx="10" fill="#F5F7FA"/>
+<defs><marker id="b1arr" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="11" refY="8" orient="auto"><path d="M0 0L16 8L0 16z" fill="#C9821B"/></marker></defs>
+<path d="M294.7 81.2 A168 168 0 0 1 350.2 113.2" fill="none" stroke="#C9821B" stroke-width="4" marker-end="url(#b1arr)"/>
+<path d="M404.9 207.9 A168 168 0 0 1 404.9 272.1" fill="none" stroke="#C9821B" stroke-width="4" marker-end="url(#b1arr)"/>
+<path d="M350.2 366.8 A168 168 0 0 1 294.7 398.8" fill="none" stroke="#C9821B" stroke-width="4" marker-end="url(#b1arr)"/>
+<path d="M185.3 398.8 A168 168 0 0 1 129.8 366.8" fill="none" stroke="#C9821B" stroke-width="4" marker-end="url(#b1arr)"/>
+<path d="M75.1 272.1 A168 168 0 0 1 75.1 207.9" fill="none" stroke="#C9821B" stroke-width="4" marker-end="url(#b1arr)"/>
+<path d="M129.8 113.2 A168 168 0 0 1 185.3 81.2" fill="none" stroke="#C9821B" stroke-width="4" marker-end="url(#b1arr)"/>
+<g font-family="Helvetica, Arial, sans-serif" font-weight="700" text-anchor="middle">
+<rect x="176.0" y="48.0" width="128" height="48" rx="24" fill="#1F3A5F"/><text x="240.0" y="79.0" fill="#fff" font-size="21">Question</text>
+<rect x="321.5" y="132.0" width="128" height="48" rx="24" fill="#1D7A74"/><text x="385.5" y="163.0" fill="#fff" font-size="21">Design</text>
+<rect x="321.5" y="300.0" width="128" height="48" rx="24" fill="#1F3A5F"/><text x="385.5" y="331.0" fill="#fff" font-size="21">Conduct</text>
+<rect x="176.0" y="384.0" width="128" height="48" rx="24" fill="#1D7A74"/><text x="240.0" y="415.0" fill="#fff" font-size="21">Analysis</text>
+<rect x="30.5" y="300.0" width="128" height="48" rx="24" fill="#1F3A5F"/><text x="94.5" y="331.0" fill="#fff" font-size="21">Reporting</text>
+<rect x="9.5" y="132.0" width="170" height="48" rx="24" fill="#1D7A74"/><text x="94.5" y="163.0" fill="#fff" font-size="21">Use of evidence</text>
+<text x="240" y="226" fill="#1F3A5F" font-size="21">Each answer</text><text x="240" y="254" fill="#1F3A5F" font-size="21">shapes the</text><text x="240" y="282" fill="#1F3A5F" font-size="21">next question</text>
 </g>
 </svg>
-<figcaption><strong>Figure 1.</strong> The stages of a trial that the BEACON Blog will shine a light on, with examples of the methods at each stage. Original diagram by Edward N. Stanhope for BEACON.</figcaption>
+<figcaption><strong>Figure 1.</strong> Research as a cycle: the stages the BEACON Blog will shine a light on. Using the evidence, through appraisal and synthesis, raises the next questions. Original diagram by Edward N. Stanhope for BEACON.</figcaption>
 </figure>
 
 ## More research is not the same as better research
@@ -277,14 +267,16 @@ I find it helpful to hold two ideas together. Exercise has enormous potential to
 
 ## References
 
-1. <span id="r1"></span>Campbell KL, Winters-Stone KM, Wiskemann J, May AM, Schwartz AL, Courneya KS, et al. Exercise guidelines for cancer survivors: consensus statement from international multidisciplinary roundtable. *Med Sci Sports Exerc*. 2019;51(11):2375-90. [doi:10.1249/MSS.0000000000002116](https://doi.org/10.1249/MSS.0000000000002116) [PMC8576825](https://pmc.ncbi.nlm.nih.gov/articles/PMC8576825)
-2. <span id="r2"></span>Courneya KS, Vardy JL, O'Callaghan CJ, Gill S, Friedenreich CM, Wong RKS, et al. Structured exercise after adjuvant chemotherapy for colon cancer. *N Engl J Med*. 2025;393(1):13-25. [doi:10.1056/NEJMoa2502760](https://doi.org/10.1056/NEJMoa2502760)
-3. <span id="r3"></span>Chalmers I, Glasziou P. Avoidable waste in the production and reporting of research evidence. *Lancet*. 2009;374(9683):86-9. [doi:10.1016/S0140-6736(09)60329-9](https://doi.org/10.1016/S0140-6736(09)60329-9)
-4. <span id="r4"></span>Glasziou P, Chalmers I. Is 85% of health research really "wasted"? *The BMJ Opinion* [blog]. 14 January 2016. [blogs.bmj.com](https://blogs.bmj.com/bmj/2016/01/14/paul-glasziou-and-iain-chalmers-is-85-of-health-research-really-wasted/) 
-5. <span id="r5"></span>Meneses-Echavez JF, Rodriguez-Prieto I, Elkins M, Martínez-Torres J, Nguyen L, Bidonde J. Analysis of reporting completeness in exercise cancer trials: a systematic review. *BMC Med Res Methodol*. 2019;19:220. [doi:10.1186/s12874-019-0871-0](https://doi.org/10.1186/s12874-019-0871-0) [PMC6889190](https://pmc.ncbi.nlm.nih.gov/articles/PMC6889190)
-6. <span id="r6"></span>International Council for Harmonisation. ICH E6(R3) Guideline for good clinical practice: principles and Annex 1. Effective 23 July 2025. [European Medicines Agency](https://www.ema.europa.eu/en/scientific-guidelines/ich-e6-good-clinical-practice) 
-7. <span id="r7"></span>Ashton RE, Faghy MA, Roscoe CMP, Aning J. Inclusivity in prostate cancer and exercise research: a systematic review. *Support Care Cancer*. 2024;32(9):616. [doi:10.1007/s00520-024-08793-9](https://doi.org/10.1007/s00520-024-08793-9) [PMC11358357](https://pmc.ncbi.nlm.nih.gov/articles/PMC11358357)
-8. <span id="r8"></span>Staniszewska S, Brett J, Simera I, Seers K, Mockford C, Goodlad S, et al. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research. *BMJ*. 2017;358:j3453. [doi:10.1136/bmj.j3453](https://doi.org/10.1136/bmj.j3453) [PMC5539518](https://pmc.ncbi.nlm.nih.gov/articles/PMC5539518)
+1. <span id="r1"></span>Campbell KL, Winters-Stone KM, Wiskemann J, May AM, Schwartz AL, Courneya KS, et al. Exercise guidelines for cancer survivors: consensus statement from international multidisciplinary roundtable. *Med Sci Sports Exerc*. 2019;51(11):2375-90. [doi:10.1249/MSS.0000000000002116](https://doi.org/10.1249/MSS.0000000000002116) 🔓 Free author manuscript: [PMC8576825](https://pmc.ncbi.nlm.nih.gov/articles/PMC8576825)
+2. <span id="r2"></span>Courneya KS, Vardy JL, O'Callaghan CJ, Gill S, Friedenreich CM, Wong RKS, et al. Structured exercise after adjuvant chemotherapy for colon cancer. *N Engl J Med*. 2025;393(1):13-25. [doi:10.1056/NEJMoa2502760](https://doi.org/10.1056/NEJMoa2502760) 🔒 Subscription
+3. <span id="r3"></span>Chalmers I, Glasziou P. Avoidable waste in the production and reporting of research evidence. *Lancet*. 2009;374(9683):86-9. [doi:10.1016/S0140-6736(09)60329-9](https://doi.org/10.1016/S0140-6736(09)60329-9) 🔒 Subscription (landmark paper)
+4. <span id="r4"></span>Glasziou P, Chalmers I. Is 85% of health research really "wasted"? *The BMJ Opinion* [blog]. 14 January 2016. [blogs.bmj.com](https://blogs.bmj.com/bmj/2016/01/14/paul-glasziou-and-iain-chalmers-is-85-of-health-research-really-wasted/) 🔓 Open access
+5. <span id="r5"></span>Meneses-Echavez JF, Rodriguez-Prieto I, Elkins M, Martínez-Torres J, Nguyen L, Bidonde J. Analysis of reporting completeness in exercise cancer trials: a systematic review. *BMC Med Res Methodol*. 2019;19:220. [doi:10.1186/s12874-019-0871-0](https://doi.org/10.1186/s12874-019-0871-0) 🔓 Open access: [PMC6889190](https://pmc.ncbi.nlm.nih.gov/articles/PMC6889190)
+6. <span id="r6"></span>International Council for Harmonisation. ICH E6(R3) Guideline for good clinical practice: principles and Annex 1. Effective 23 July 2025. [European Medicines Agency](https://www.ema.europa.eu/en/scientific-guidelines/ich-e6-good-clinical-practice) 🔓 Open access
+7. <span id="r7"></span>Ashton RE, Faghy MA, Roscoe CMP, Aning J. Inclusivity in prostate cancer and exercise research: a systematic review. *Support Care Cancer*. 2024;32(9):616. [doi:10.1007/s00520-024-08793-9](https://doi.org/10.1007/s00520-024-08793-9) 🔓 Open access: [PMC11358357](https://pmc.ncbi.nlm.nih.gov/articles/PMC11358357)
+8. <span id="r8"></span>Staniszewska S, Brett J, Simera I, Seers K, Mockford C, Goodlad S, et al. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research. *BMJ*. 2017;358:j3453. [doi:10.1136/bmj.j3453](https://doi.org/10.1136/bmj.j3453) 🔓 Open access: [PMC5539518](https://pmc.ncbi.nlm.nih.gov/articles/PMC5539518)
+
+🔓 Open access · 🔒 Subscription. Open versions are linked where available.
 
 ## Further reading
 
